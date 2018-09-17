@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: rgb(240, 232, 232);
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    float: left; 
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-size: auto;
+}
+
+#box1 {
+    background-color: rgb(177, 117, 7);
+    margin-bottom: 1em;
+}
+
+#box2 {
+    
+    background-color: tan;  
+}
+
+#box3 {
+    
+    background-color: green;     
+    float: left;
+    height: 2em;
+}
+
+#box4 {
+    background-color: rgb(75, 255, 144); 
+    float: left; 
+    height: 2em;
+}
+
+#box5 {
+    
+    background-color: rgb(90, 161, 32);  
+    height: 2em;
+    margin-left: -1.7em;
+    margin-bottom: 1em;
+}
+
+#box6 {
+    background-color: rgb(90, 161, 32);  
+    margin-left: -1.7em;
+    height: 2em;
+}
+
+p, h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(4, 97, 4);
+    font-size: 1.5em;
+}
+
+.win {
+    margin-top: -2em;
+    margin-left: 10px;
+}
+
+.loss {
+    margin-top: 1em;
+    margin-left: 10px;
+}
+
+#random-number {
+    font-weight: 600;
+    color: rgb(116, 4, 4);
+    font-size: 2.5em;
+    margin-left: 5px;
+
+}
+
+#wins, #losses {
+    color: rgb(240, 232, 232);    
+}
+
+#total-score {
+    color: rgb(240, 232, 232);  
+    font-size: 2.5em;
+    margin-left: 5px;
+}
+
+.picture {
+    margin-left: -.5em;
+    margin-bottom: 2em;
+    height: 6em;
+    width: 6em;
+}
+
+#total {
+    color: rgb(240, 232, 232);
+    margin-left: -10px;
+    margin-top: 3px;
+}
+
