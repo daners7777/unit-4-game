@@ -44,7 +44,7 @@ function CrystalClick3() {
 
 Randomize();
 
-//Event listener to look for clikcs on each crystal
+//Event listener to look for clicks on each crystal
 document.getElementById("crystal1").addEventListener("click", DisplayTotal0);
 document.getElementById("crystal2").addEventListener("click", DisplayTotal1);
 document.getElementById("crystal3").addEventListener("click", DisplayTotal2);
